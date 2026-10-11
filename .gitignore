@@ -1,0 +1,6 @@
+# VSCode临时文件
+.vscode/
+*.log
+# 系统文件
+Thumbs.db
+.DS_Store
