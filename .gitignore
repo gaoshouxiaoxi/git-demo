@@ -1,5 +1,7 @@
-# VSCode临时文件
-.vscode/
+# VSCode：忽略本地偏好，保留可共享的项目配置
+.vscode/*
+!.vscode/settings.json
+!.vscode/launch.json
 *.log
 # 系统文件
 Thumbs.db
