@@ -1,0 +1,25 @@
+# 统一换行符：仓库内一律存 LF，检出时由各人客户端决定
+* text=auto eol=lf
+
+# 明确按二进制处理，避免被改动
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.pdf binary
+*.zip binary
+*.docx binary
+*.xlsx binary
+*.pptx binary
+
+# Windows 批处理脚本保留 CRLF
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# 常见文本类型显式声明为文本
+*.md text
+*.txt text
+*.json text
+*.yml text
+*.yaml text
